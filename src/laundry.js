@@ -13,6 +13,7 @@ function getMaxPairs(noOfWashes, cleanPile, dirtyPile) {
   let sortedClean = cleanPile.sort();
   let singleClean = []
 
+
   while (sortedClean.length > 0) {
     if (sortedClean[0] === sortedClean[1]) {
       socksPair++;
